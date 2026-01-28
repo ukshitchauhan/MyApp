@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API = axios.create({
-    baseURL:'http://localhost:5000/'
+    baseURL:'https://myapp-1-fvmj.onrender.com/'
 })
 
 API.interceptors.request.use((config) => {
